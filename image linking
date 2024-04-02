@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* Basic styling for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Home Section -->
+<section id="home">
+    <h1>Welcome to Our Website!</h1>
+    <p>Embark on a journey of tourism, indulge in delicious food, and seek thrilling adventures with us.</p>
+    <a href="https://www.example.com/tourism" target="_blank">
+        <img src="tourism_image.jpg" alt="Tourism" width="300" height="200">
+    </a>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+    <h2>Nature Adventures</h2>
+    <div class="image-grid">
+        <a href="https://www.example.com/adventure1" target="_blank">
+            <img src="adventure_image1.jpg" alt="Adventure 1" width="200" height="150">
+        </a>
+        <a href="https://www.example.com/adventure2" target="_blank">
+            <img src="adventure_image2.jpg" alt="Adventure 2" width="200" height="150">
+        </a>
+        <a href="https://www.example.com/adventure3" target="_blank">
+            <img src="adventure_image3.jpg" alt="Adventure 3" width="200" height="150">
+        </a>
+    </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu">
+    <h2>Food Delights</h2>
+    <ul>
+        <li>
+            <a href="https://www.example.com/food_item1" target="_blank">
+                <img src="food_item1.jpg" alt="Food Item 1" width="150" height="150">
+                Food Item 1
+            </a>
+        </li>
+        <li>
+            <a href="https://www.example.com/food_item2" target="_blank">
+                <img src="food_item2.jpg" alt="Food Item 2" width="150" height="150">
+                Food Item 2
+            </a>
+        </li>
+        <li>
+            <a href="https://www.example.com/food_item3" target="_blank">
+                <img src="food_item3.jpg" alt="Food Item 3" width="150" height="150">
+                Food Item 3
+            </a>
+        </li>
+    </ul>
+</section>
+
+</body>
+</html>
